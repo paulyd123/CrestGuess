@@ -3,4 +3,3 @@ c:\users\g0029\documents\visual studio 2015\Projects\GenerateQuery\GenerateQuery
 c:\users\g0029\documents\visual studio 2015\Projects\GenerateQuery\GenerateQuery\bin\Debug\GenerateQuery.pdb
 c:\users\g0029\documents\visual studio 2015\Projects\GenerateQuery\GenerateQuery\obj\Debug\GenerateQuery.exe
 c:\users\g0029\documents\visual studio 2015\Projects\GenerateQuery\GenerateQuery\obj\Debug\GenerateQuery.pdb
-c:\users\g0029\documents\visual studio 2015\Projects\GenerateQuery\GenerateQuery\obj\Debug\GenerateQuery.csprojResolveAssemblyReference.cache

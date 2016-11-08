@@ -3,21 +3,36 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace GenerateQuery
 {
     class Program
     {
+        //For Android
+        public static string ConvertToUnsign(string str)
+        {
+            Regex regex = new Regex("\\p(IsCombiningDiacriticalMarks)+");
+            string temp = str.Normalize(System.Text.NormalizationForm.FormD);
+            return regex.Replace(temp, string.Empty).Replace('\u0111', 'd').Replace('\u0110', 'D');
+        }
+        
         //Funtion to get all file names of crests
         public static List<string> getListClubCrests()
         {
-            DirectoryInfo d = new DirectoryInfo(@"C:\Users\g0029\Documents\Fourth Year\Mobile Applications Development\MobileAppProject\clubCrests"); //Reaching out to directory with club crests
+            DirectoryInfo d = new DirectoryInfo(@"C:\Users\g0029\Documents\Visual Studio 2015\Projects\Crests\clubCrests"); //Reaching out to directory with club crests
             FileInfo[] files = d.GetFiles("*.jpg");
             List<string> lstNames = new List<string>();
+
             foreach (var file in files) //Foreach file in the above directory
+            {
+                //This line renames all upper file names to lower file names
+                //Android Drawable Resource can't contains "'" and "-" character
+                File.Move(file.FullName, ConvertToUnsign(file.FullName.ToLower().Replace("'", String.Empty).Replace("-", String.Empty)));
                 lstNames.Add(file.Name.Replace("*.jpg", String.Empty)); //Liverpool.png -> Liverpool
-            return lstNames;
+            }
+                return lstNames;
         }
 
         //Function to get random club name from list without duplication
@@ -51,14 +66,14 @@ namespace GenerateQuery
                 //VALUES('Liverpool', 'Manchester City', 'Arsenal', 'Chelsea')
 
                 query = "INSERT INTO Question(Image, AnswerA, AnswerB, AnswerC, AnswerD, CorrectAnswer)"
-                    + $"VALUES(\"{name}\",\"{answerList[1]}\",\"{answerList[2]}\",\"{answerList[3]}\",\"{name}\");";
+                    + $"VALUES(\"{name}\",\"{answerList[0]}\",\"{answerList[1]}\",\"{answerList[2]}\",\"{answerList[3]}\",\"{name}\");";
 
                 lstQuery.Add(query); //To add query we just create the list
             }
             System.IO.File.WriteAllLines(@".//QueryGenerate.txt", lstQuery); //Write all to file
         }
 
-        
+
         static void Main(string[] args)
         {
             Console.WriteLine("Tool Generate Query");
