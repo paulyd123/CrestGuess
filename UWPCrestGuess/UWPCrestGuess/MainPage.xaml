@@ -46,18 +46,6 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <RadioButton
-                    GroupName="Mode"
-                    Grid.Column="0"
-                    x:Name="rdiEasy"
-                    Content="Easy"
-                    IsChecked="True"
-                    />
-                <RadioButton
-                      GroupName="Mode"
-                    Grid.Column="1"
-                    x:Name="rdiMedium"
-                    Content="Medium"/>
             </Grid>
         </Grid>
 
