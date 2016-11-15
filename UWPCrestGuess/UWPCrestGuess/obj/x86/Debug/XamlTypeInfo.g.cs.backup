@@ -13,7 +13,7 @@ namespace UWPCrestGuess
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-    private global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider _provider;
+    private global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         /// <summary>
         /// GetXamlType(Type)
@@ -22,7 +22,7 @@ namespace UWPCrestGuess
         {
             if(_provider == null)
             {
-                _provider = new global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -34,7 +34,7 @@ namespace UWPCrestGuess
         {
             if(_provider == null)
             {
-                _provider = new global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -49,7 +49,7 @@ namespace UWPCrestGuess
     }
 }
 
-namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
+namespace UWPCrestGuess.UWPCrestGuess_XamlTypeInfo
 {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -179,8 +179,8 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlUserType userType;
+            global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -188,18 +188,18 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
             {
 
             case 0:   //  UWPCrestGuess.MainPage
-                userType = new global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -209,7 +209,7 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlMember xamlMember = null;
+            global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlMember xamlMember = null;
             // No Local Properties
             return xamlMember;
         }
@@ -264,9 +264,9 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlSystemBaseType
     {
-        global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -280,7 +280,7 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -472,7 +472,7 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -481,7 +481,7 @@ namespace UWPCrestGuess.CrestGuess_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::UWPCrestGuess.CrestGuess_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::UWPCrestGuess.UWPCrestGuess_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

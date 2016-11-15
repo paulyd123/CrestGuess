@@ -1,1 +1,1 @@
-C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\UWPCrestGuess.csproj;x86
+C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\CrestGuess.csproj;x86

@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+esqlite3.dll
 Assets\crests\Atletico_Madrid.jpg
 Assets\crests\Barcelona.jpg
 Assets\crests\Bolton_Wanderers.jpg
@@ -27,4 +28,5 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 UWPCrestGuess.xr.xml
+Database\crestGuess.db
 Properties\Default.rd.xml
