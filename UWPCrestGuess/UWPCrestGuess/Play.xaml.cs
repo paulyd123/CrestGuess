@@ -52,6 +52,7 @@ namespace UWPCrestGuess
             thisQuestion++;
             index++;
             showQuestion(index); 
+
         }
 
         public void showQuestion(int index)
@@ -65,10 +66,17 @@ namespace UWPCrestGuess
                 answerB.Content = listQuestion[index].AnswerB;
                 answerC.Content = listQuestion[index].AnswerC;
                 answerD.Content = listQuestion[index].AnswerD;
-            }
 
-            txtNum.Text = $"{thisQuestion}/{totalQuestion}";
+                txtNum.Text = $"{thisQuestion}/{totalQuestion}";
+            }
+            else
+            {
+                Frame.Navigate(typeof(Finished));
+            }
+            
         }
+        
+        
       
 
     }
