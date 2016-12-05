@@ -7,7 +7,35 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid Background="#242e38">
+        <Grid VerticalAlignment="Center" Background="White"
+              CornerRadius="8"
+              Margin="8"
+              Padding="16 50">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="txtScore"
+                       Text="Score : 0"
+                       FontSize="40"
+                       HorizontalAlignment="Center"
+                       Foreground="Black"/>
+            <TextBlock x:Name="txtPass"
+                       Grid.Row="1"
+                       Text="Passed : 0/20"
+                       FontSize="40"
+                       HorizontalAlignment="Center"
+                       Foreground="Black"/>
+            <Button x:Name="btnTryAgain"
+                    Grid.Row="3"
+                    Content="TRY AGAIN"
+                    Margin="8"
+                    Background="#1dccaa"
+                    Foreground="White"
+                    HorizontalAlignment="Stretch"/>
+        </Grid>
     </Grid>
 </Page>

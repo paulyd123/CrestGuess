@@ -15,6 +15,12 @@ namespace UWPCrestGuess
 
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.TextBlock txtScore; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.TextBlock txtPass; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button btnTryAgain; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
         private bool _contentLoaded;
 
         /// <summary>
