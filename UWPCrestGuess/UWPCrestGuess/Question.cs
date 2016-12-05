@@ -16,10 +16,4 @@ namespace UWPCrestGuess.Model
         public String AnswerD { get; set; }
         public String CorrectAnswer { get; set; }
     }
-
-    public enum Mode
-    {
-        EASY,
-        HARD
-    }
 }
