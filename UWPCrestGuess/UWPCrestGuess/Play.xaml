@@ -67,7 +67,30 @@
 
 
                 </Grid>
-                
+                <Button x:Name="answerA"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
+                <Button x:Name="answerB"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
+                <Button x:Name="answerC"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
+                <Button x:Name="answerD"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
             </StackPanel>
 
         </Grid>
