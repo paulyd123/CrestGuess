@@ -19,9 +19,13 @@ using Windows.UI.Xaml.Navigation;
 
 namespace UWPCrestGuess
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    public class SendData
+    {
+        public int correctAnswer { get; set; }
+        public int totalQuestion { get; set; }
+        public int score { get; set; }
+    }
+
     public sealed partial class Play : Page
     {
         List<Question> listQuestion = new List<Question>();
@@ -71,7 +75,7 @@ namespace UWPCrestGuess
             }
             else
             {
-                Frame.Navigate(typeof(Finished));
+                Frame.Navigate(typeof(Finished), new SendData() {correctAnswer = this.correctAnswer, totalQuestion = this.totalQuestion, score = this.score });
             }
             
         }
