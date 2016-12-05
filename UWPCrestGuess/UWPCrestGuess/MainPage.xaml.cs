@@ -30,8 +30,7 @@ namespace UWPCrestGuess
 
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService nav = NavigationService.GetNavigationService(this);
-            nav.Navigate(new Uri("Play.xaml", UriKind.RelativeOrAbsolute));
+            Frame.Navigate(typeof(Play));
         }
     }
 }

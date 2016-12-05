@@ -39,6 +39,21 @@ namespace UWPCrestGuess
             db = new DBHelper();
         }
 
+        private void AnswerAccept(Button btn)
+        {
+          
+            if (btn.Content.Equals(listQuestion[index].CorrectAnswer.ToUpper()))
+            {
+                score += 10; 
+                correctAnswer++; 
+                txtScore.Text = score.ToString();
+            }
+
+            thisQuestion++;
+            index++;
+            showQuestion(index); 
+        }
+
         public void showQuestion(int index)
         {
             if(index < listQuestion.Count)
@@ -52,7 +67,7 @@ namespace UWPCrestGuess
                 answerD.Content = listQuestion[index].AnswerD;
             }
 
-        
+            txtNum.Text = $"{thisQuestion}/{totalQuestion}";
         }
       
 

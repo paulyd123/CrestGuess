@@ -9,7 +9,7 @@
 
     <Grid Background="#242e38">
         <Grid VerticalAlignment="Top">
-            <Image x:ConnectionId='1' x:Name="imageLoad"
+            <Image x:ConnectionId='7' x:Name="imageLoad"
                    Width="200"
                    Height="100"
                    Margin="0 16 0 0"/>
@@ -26,8 +26,73 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
+                    <Grid BorderThickness="1"
+                          BorderBrush="#aeaeae">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:ConnectionId='6' x:Name="txtScore"
+                                   Foreground="Black"
+                                   HorizontalAlignment="Center"
+                                   FontSize="40"
+                                   Text="0"
+                                   Grid.Column="1"/>
+                        <Grid Grid.Row="1" Background="#ff5722">
+                            <TextBlock Text="Score"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+                    <Grid BorderThickness="1"
+                          BorderBrush="#aeaeae"
+                          Grid.Column="1">
+                          
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:ConnectionId='5' x:Name="txtNum"
+                                   Foreground="Black"
+                                   HorizontalAlignment="Center"
+                                   FontSize="40"
+                                   Text="1/20"
+                                   Grid.Column="1"/>
+                        <Grid Grid.Row="1" Background="#ff5722">
+                            <TextBlock Text="Question"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+
+
                 </Grid>
+                <Button x:ConnectionId='1' x:Name="answerA"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
+                <Button x:ConnectionId='2' x:Name="answerB"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
+                <Button x:ConnectionId='3' x:Name="answerC"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
+                <Button x:ConnectionId='4' x:Name="answerD"
+                        Content="Answer "
+                        Margin="8"
+                        Background="#1cb3bc"
+                        Foreground="White"
+                        HorizontalAlignment="Stretch"/>
             </StackPanel>
+
         </Grid>
 
 
