@@ -198,3 +198,8 @@ C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess
 C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\SQLitePCL.raw.pri.xml
 C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\Play.g.i.cs
+C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\Play.g.cs
+C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\Play.xaml
+C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\Play.xbf
+C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Play.xbf

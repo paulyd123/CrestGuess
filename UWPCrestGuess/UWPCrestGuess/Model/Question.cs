@@ -9,17 +9,12 @@ namespace UWPCrestGuess.Model
     class Question
     {
         public int ID { get; set; }
-        public String Image { get; set; }
-        public String AnswerA { get; set; }
-        public String AnswerB { get; set; }
-        public String AnswerC { get; set; }
-        public String AnswerD { get; set; }
-        public String CorrectAnswer { get; set; }
+        public string Image { get; set; }
+        public string AnswerA { get; set; }
+        public string AnswerB { get; set; }
+        public string AnswerC { get; set; }
+        public string AnswerD { get; set; }
+        public string CorrectAnswer { get; set; }
     }
 
-    public enum Mode
-    {
-        EASY,
-        HARD
-    }
 }

@@ -26,5 +26,6 @@ namespace UWPCrestGuess
         {
             this.InitializeComponent();
         }
+
     }
 }

@@ -10,13 +10,13 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>5887910d-c926-4807-8571-ccfe2bec488b</PackageIdentityName>
     <PackageIdentityPublisher>CN=PaulDolan</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>AB140DA0F0085F1FC333A2634562B3835721DFC38B9A3052FD8C07F9EAEA10A2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>038219A5AE0485121B5C2F58993EAA6CE1CC3FE5DC142B97917572FC04EDCF82</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5887910d-c926-4807-8571-ccfe2bec488b_1.0.0.0_x86__3r3w07jgcpq5g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5887910d-c926-4807-8571-ccfe2bec488b_3r3w07jgcpq5g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5887910d-c926-4807-8571-ccfe2bec488b</RegisteredPackageID>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-15T12:56:43.000</Modified>
+      <Modified>2016-12-05T17:12:33.578</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\UWPCrestGuess.exe">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\UWPCrestGuess.exe">
       <PackagePath>entrypoint\UWPCrestGuess.exe</PackagePath>
-      <Modified>2016-11-15T12:56:43.000</Modified>
+      <Modified>2016-12-05T17:12:28.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0029\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -480,124 +480,124 @@
       <PackagePath>ucrtbased.dll</PackagePath>
       <Modified>2016-07-28T07:01:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Database\crestGuess.db">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Database\crestGuess.db">
       <PackagePath>Database\crestGuess.db</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Atletico_Madrid.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Atletico_Madrid.jpg">
       <PackagePath>Assets\crests\Atletico_Madrid.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Barcelona.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Barcelona.jpg">
       <PackagePath>Assets\crests\Barcelona.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Bolton_Wanderers.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Bolton_Wanderers.jpg">
       <PackagePath>Assets\crests\Bolton_Wanderers.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Charlton_Athletic.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Charlton_Athletic.jpg">
       <PackagePath>Assets\crests\Charlton_Athletic.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Coventry_City.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Coventry_City.jpg">
       <PackagePath>Assets\crests\Coventry_City.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Crystal_Palace.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Crystal_Palace.jpg">
       <PackagePath>Assets\crests\Crystal_Palace.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Fiorentina.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Fiorentina.jpg">
       <PackagePath>Assets\crests\Fiorentina.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Leeds_United.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Leeds_United.jpg">
       <PackagePath>Assets\crests\Leeds_United.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Manchester_United.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Manchester_United.jpg">
       <PackagePath>Assets\crests\Manchester_United.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Marseille.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Marseille.jpg">
       <PackagePath>Assets\crests\Marseille.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Napoli.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Napoli.jpg">
       <PackagePath>Assets\crests\Napoli.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Queens_Park_Rangers.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Queens_Park_Rangers.jpg">
       <PackagePath>Assets\crests\Queens_Park_Rangers.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Reading.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Reading.jpg">
       <PackagePath>Assets\crests\Reading.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Sevilla.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Sevilla.jpg">
       <PackagePath>Assets\crests\Sevilla.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Shakhtar_Donetsk.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Shakhtar_Donetsk.jpg">
       <PackagePath>Assets\crests\Shakhtar_Donetsk.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Southampton.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Southampton.jpg">
       <PackagePath>Assets\crests\Southampton.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Stoke.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Stoke.jpg">
       <PackagePath>Assets\crests\Stoke.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Sunderland.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Sunderland.jpg">
       <PackagePath>Assets\crests\Sunderland.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Tottenham_Hotspur.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\Tottenham_Hotspur.jpg">
       <PackagePath>Assets\crests\Tottenham_Hotspur.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\West_Bromwich_Albion.jpg">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\crests\West_Bromwich_Albion.jpg">
       <PackagePath>Assets\crests\West_Bromwich_Albion.jpg</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-11-15T12:56:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-11-15T12:56:43.000</Modified>
@@ -606,22 +606,22 @@
       <PackagePath>esqlite3.dll</PackagePath>
       <Modified>2016-06-17T08:59:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\UWPCrestGuess.xr.xml">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\UWPCrestGuess.xr.xml">
       <PackagePath>UWPCrestGuess.xr.xml</PackagePath>
-      <Modified>2016-11-15T12:56:43.000</Modified>
+      <Modified>2016-12-05T17:12:28.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-10-12T13:54:37.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-15T12:56:43.000</Modified>
+      <Modified>2016-12-05T17:12:31.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0029\documents\visual studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Core\UWPCrestGuess.exe">
+    <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Core\UWPCrestGuess.exe">
       <PackagePath>UWPCrestGuess.exe</PackagePath>
-      <Modified>2016-11-15T12:56:43.000</Modified>
+      <Modified>2016-12-05T17:12:33.563</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

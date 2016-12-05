@@ -12,7 +12,7 @@
             <Image
                 Width="200" Height="200"
                 Stretch="Uniform"
-                Source="ms-appx:///Assets/Flags/Barcelona.jpg"/>
+                Source="ms-appx:///Assets/Flags//Barcelona.jpg"/>
         </Grid>
 
         <Grid x:Name="Menu" VerticalAlignment="Center"
@@ -47,18 +47,6 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <RadioButton
-                    GroupName="Mode"
-                    Grid.Column="0"
-                    x:Name="rdiEasy"
-                    Content="Easy"
-                    IsChecked="True"
-                    />
-                <RadioButton
-                    GroupName="Mode"
-                    Grid.Column="1"
-                    x:Name="rdiHard"
-                    Content="Hard"/>
             </Grid>
         </Grid>
 

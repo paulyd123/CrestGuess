@@ -9,7 +9,7 @@
 
     <Grid Background="#242e38">
         <Grid VerticalAlignment="Top">
-            <Image x:Name="imageLoad"
+            <Image x:ConnectionId='1' x:Name="imageLoad"
                    Width="200"
                    Height="100"
                    Margin="0 16 0 0"/>
@@ -33,3 +33,4 @@
 
     </Grid>
 </Page>
+

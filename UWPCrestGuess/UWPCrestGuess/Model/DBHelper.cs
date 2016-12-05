@@ -21,16 +21,12 @@ namespace UWPCrestGuess.Model
 
         }
 
-        public List<Question>getEasyMode(10)
-       {
-            var data = conn.Table<Question>().Take(10);
-            return data.ToList();
-       }
 
-        public List<Question> getHardMode(20)
+        private List<Question>getQuestion()
         {
-            var data = conn.Table<Question>().Take(20);
+            var data = conn.Table<Question>();
             return data.ToList();
         }
+        
     }
 }

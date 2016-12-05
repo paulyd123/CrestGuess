@@ -30,14 +30,8 @@ namespace UWPCrestGuess
 
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Play));
-
-            Mode mode;
-            if (rdiEasy.IsChecked == true)
-                mode = Mode.EASY;
-            else if (rdiHard.IsChecked == true)
-                mode = Mode.HARD;
-           
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new Uri("Play.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }
