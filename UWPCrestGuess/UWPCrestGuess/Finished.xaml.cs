@@ -26,5 +26,17 @@ namespace UWPCrestGuess
         {
             this.InitializeComponent();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            var data = e.Parameter as SendData;
+            txtPass.Text = $"Passed : {data.correctAnswer}/{data.totalQuestion}";
+            txtScore.Text = $"Score : {data.score}";
+        }
+        private void btnTryAgain_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }

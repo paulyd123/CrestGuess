@@ -18,26 +18,27 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <TextBlock x:Name="txtScore"
+            <TextBlock x:ConnectionId='1' x:Name="txtScore"
                        Text="Score : 0"
                        FontSize="40"
                        HorizontalAlignment="Center"
                        Foreground="Black"/>
-            <TextBlock x:Name="txtPass"
+            <TextBlock x:ConnectionId='2' x:Name="txtPass"
                        Grid.Row="1"
                        Text="Passed : 0/20"
                        FontSize="40"
                        HorizontalAlignment="Center"
                        Foreground="Black"/>
-            <Button x:Name="btnTryAgain"
+            <Button x:ConnectionId='3' x:Name="btnTryAgain"
                     Grid.Row="3"
                     Content="TRY AGAIN"
                     Margin="8"
                     Background="#1dccaa"
                     Foreground="White"
                     HorizontalAlignment="Stretch"
-                    Click="btnTryAgain_Click"
+                                             
                     />
         </Grid>
     </Grid>
 </Page>
+
