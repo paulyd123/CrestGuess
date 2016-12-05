@@ -11,8 +11,9 @@
         <Grid VerticalAlignment="Top">
             <Image x:Name="imageLoad"
                    Width="200"
-                   Height="100"
-                   Margin="0 16 0 0"/>
+                   Height="200"
+                   Margin="0 16 0 0"
+                   />
 
         </Grid>
         <Grid VerticalAlignment="Bottom"
@@ -72,25 +73,29 @@
                         Margin="8"
                         Background="#1cb3bc"
                         Foreground="White"
-                        HorizontalAlignment="Stretch"/>
+                        HorizontalAlignment="Stretch"
+                        Click="answerA_Click"/>
                 <Button x:Name="answerB"
                         Content="Answer "
                         Margin="8"
                         Background="#1cb3bc"
                         Foreground="White"
-                        HorizontalAlignment="Stretch"/>
+                        HorizontalAlignment="Stretch"
+                        Click="answerB_Click"/>
                 <Button x:Name="answerC"
                         Content="Answer "
                         Margin="8"
                         Background="#1cb3bc"
                         Foreground="White"
-                        HorizontalAlignment="Stretch"/>
+                        HorizontalAlignment="Stretch"
+                        Click="answerC_Click"/>
                 <Button x:Name="answerD"
                         Content="Answer "
                         Margin="8"
                         Background="#1cb3bc"
                         Foreground="White"
-                        HorizontalAlignment="Stretch"/>
+                        HorizontalAlignment="Stretch"
+                        Click="answerD_Click"/>
             </StackPanel>
 
         </Grid>

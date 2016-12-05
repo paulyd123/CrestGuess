@@ -43,10 +43,40 @@ namespace UWPCrestGuess
             db = new DBHelper();
         }
 
-        private void AnswerAccept(Button btn)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+
+            listQuestion = db.getQuestion().OrderBy(s => Guid.NewGuid()).ToList();
+
+            showQuestion(index);
+        }
+
+        private void btnAnswerA_Click(object sender, RoutedEventArgs e)
+        {
+            AnswerAccept(sender as Button);
+        }
+
+        private void btnAnswerB_Click(object sender, RoutedEventArgs e)
+        {
+            AnswerAccept(sender as Button);
+        }
+
+        private void btnAnswerC_Click(object sender, RoutedEventArgs e)
+        {
+            AnswerAccept(sender as Button);
+        }
+
+        private void btnAnswerD_Click(object sender, RoutedEventArgs e)
+        {
+            AnswerAccept(sender as Button);
+        }
+
+
+        public void AnswerAccept(Button btn)
         {
           
-            if (btn.Content.Equals(listQuestion[index].CorrectAnswer.ToUpper()))
+            if (btn.Content.Equals(listQuestion[index].CorrectAnswer))
             {
                 score += 10; 
                 correctAnswer++; 
@@ -63,7 +93,9 @@ namespace UWPCrestGuess
         {
             if(index < listQuestion.Count)
             {
+                
                 string imgUrl = "ms-appx:///Assets/crests/" + listQuestion[index].Image + ".jpg";
+               
                 imageLoad.Source = new BitmapImage(new Uri(imgUrl));
 
                 answerA.Content = listQuestion[index].AnswerA;
@@ -79,9 +111,25 @@ namespace UWPCrestGuess
             }
             
         }
-        
-        
-      
 
+        private void answerA_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void answerB_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void answerC_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void answerD_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

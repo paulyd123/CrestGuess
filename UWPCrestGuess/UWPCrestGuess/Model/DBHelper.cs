@@ -22,7 +22,7 @@ namespace UWPCrestGuess.Model
         }
 
 
-        private List<Question>getQuestion()
+        public List<Question>getQuestion()
         {
             var data = conn.Table<Question>();
             return data.ToList();

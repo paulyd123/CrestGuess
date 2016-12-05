@@ -12,7 +12,7 @@
             <Image
                 Width="200" Height="200"
                 Stretch="Uniform"
-                Source="ms-appx:///Assets/Flags//Napoli.jpg"/>
+                Source="ms-appx:///Assets/crests/Barcelona.jpg"/>
         </Grid>
 
         <Grid x:ConnectionId='1' x:Name="Menu" VerticalAlignment="Center"
@@ -42,7 +42,8 @@
                     Margin="8"
                     Background="#ff8a80"
                     Foreground="White"
-                    HorizontalAlignment="Stretch"/>
+                    HorizontalAlignment="Stretch"
+                    />
             <Grid Grid.Row="2" Margin="8 0 0 0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
