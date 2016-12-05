@@ -26,8 +26,50 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
+                    <Grid BorderThickness="1"
+                          BorderBrush="#aeaeae">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Name="txtScore"
+                                   Foreground="Black"
+                                   HorizontalAlignment="Center"
+                                   FontSize="40"
+                                   Text="0"
+                                   Grid.Column="1"/>
+                        <Grid Grid.Row="1" Background="#ff5722">
+                            <TextBlock Text="Score"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+                    <Grid BorderThickness="1"
+                          BorderBrush="#aeaeae"
+                          Grid.Column="1">
+                          
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Name="txtNum"
+                                   Foreground="Black"
+                                   HorizontalAlignment="Center"
+                                   FontSize="40"
+                                   Text="1/20"
+                                   Grid.Column="1"/>
+                        <Grid Grid.Row="1" Background="#ff5722">
+                            <TextBlock Text="Question"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+
+
                 </Grid>
+                
             </StackPanel>
+
         </Grid>
 
 
