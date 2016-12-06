@@ -68,7 +68,7 @@ namespace UWPCrestGuess
             }
 
             thisQuestion++; //Next question
-            index++;
+            index++; //Increases the index
             showQuestion(index); //Show next question/crest
 
         }

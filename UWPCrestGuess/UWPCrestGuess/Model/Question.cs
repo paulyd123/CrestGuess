@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace UWPCrestGuess.Model
 {
+    //This class creates the question
     public class Question
     {
         //Setting get and set methods needed for question

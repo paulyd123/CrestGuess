@@ -17,9 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace UWPCrestGuess
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+  
     public sealed partial class Finished : Page
     {
         public Finished()
@@ -27,13 +25,16 @@ namespace UWPCrestGuess
             this.InitializeComponent();
         }
 
+        //Calling this method to prepare for page navigation
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
-            var data = e.Parameter as SendData;
-            txtPass.Text = $"Passed : {data.correctAnswer}/{data.totalQuestion}";
-            txtScore.Text = $"Score : {data.score}";
+            var data = e.Parameter as SendData; //Sends data to Finished page to inform the user how they did
+            txtPass.Text = $"Correct : {data.correctAnswer}/{data.totalQuestion}"; //Tells the user their score out of 20
+            txtScore.Text = $"Score : {data.score}"; //Tells the user their score which would be out of 200
         }
+
+        //When this button is clicked it sends the user back to the main page
         private void btnTryAgain_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));

@@ -12,6 +12,7 @@ namespace UWPCrestGuess.Model
     {
         //Variables
         string path;
+        //Initializing SQLite connection
         SQLiteConnection conn;
 
 
@@ -27,8 +28,10 @@ namespace UWPCrestGuess.Model
         //This function gets the query from the database where I have made a table named Question
         public List<Question>getQuery()
         {
-            var data = conn.Table<Question>(); 
-            return data.ToList(); //Retruns information to list for questions
+            //Creates the variable 'data' to get the information from the Question table in crestGuess.db
+            var data = conn.Table<Question>();
+            //Retruns information to list for questions
+            return data.ToList(); 
         }
         
     }

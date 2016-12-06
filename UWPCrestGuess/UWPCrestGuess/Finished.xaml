@@ -25,7 +25,7 @@
                        Foreground="Black"/>
             <TextBlock x:Name="txtPass"
                        Grid.Row="1"
-                       Text="Passed : 0/20"
+                       Text="Correct : 0/20"
                        FontSize="40"
                        HorizontalAlignment="Center"
                        Foreground="Black"/>
