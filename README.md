@@ -17,3 +17,12 @@ MainPage.xaml | This is the home page that is shown to the user when the applica
 Play.xaml | In this pag an image is loaded in at the top. This is the image that's shown to the user when they are answering the questions. Below this shows the user their score and the number of questions they have answerd out of 20. As the user answers the questions they wil see their score increase by 10 for every correct answer or stay the same if incorrect. Below that are the four buttons for the four possible answers.  
 Finished.xaml | The user is navigated to the Finished page automatically when they have answered all 20 questions. This page consists of the users score which is out of 200 (20 questions and 10 points per correct answer) and the users score out of 20. I have also provided a button on the bottom of the page which allows the user to try again if they wish. If the Try Again button is clicked it directs the user back to the main page.
 
+C# Classes | Description
+------------ | -------------
+MainPage.xaml.cs | This page contains the navigation fuction which is called when the user clicks play and they are then directed to the game.
+Play.xaml.cs | This class is where most of the work happens. It gets and sets the data for the user to see their score as the game progresses. This is where the question develops in that it is where the question is created and where it s called to be shown. It's an informant to know whether or not to go onto another question or finish. Also in this class is the retrieval of images from the Assets folder.
+Finished.xaml.cs | This is where the user is directed after they have answered the 20 questions. It provides te user with their score and number of correct answers. The Try Again button is also implemented here which directs the user back to the main page if they wish to have another go.
+Question.cs | This is where the question is created. Getters and Setters for the ID, Image, four answers and the correct answer.
+DBHelper.cs | Here is where the path and connection to the database is created. It then gets the information from the database for the question.
+
+
