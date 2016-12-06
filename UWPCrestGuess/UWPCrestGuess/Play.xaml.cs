@@ -33,7 +33,7 @@ namespace UWPCrestGuess
         int index = 0;
         int score = 0;
         int correctAnswer = 0;
-        int totalQuestion = 0;
+        int totalQuestion = 20;
         int thisQuestion = 1;
 
 
@@ -47,12 +47,12 @@ namespace UWPCrestGuess
         {
             base.OnNavigatedTo(e);
 
-            listQuestion = db.getQuestion().OrderBy(s => Guid.NewGuid()).ToList();
+            listQuestion = db.getQuery().OrderBy(s => Guid.NewGuid()).ToList();
 
             showQuestion(index);
         }
 
-        private void btnAnswerA_Click(object sender, RoutedEventArgs e)
+    /*    private void btnAnswerA_Click(object sender, RoutedEventArgs e)
         {
             AnswerAccept(sender as Button);
         }
@@ -71,7 +71,7 @@ namespace UWPCrestGuess
         {
             AnswerAccept(sender as Button);
         }
-
+        */
 
         public void AnswerAccept(Button btn)
         {
@@ -94,7 +94,7 @@ namespace UWPCrestGuess
             if(index < listQuestion.Count)
             {
                 
-                string imgUrl = "ms-appx:///Assets/crests/" + listQuestion[index].Image + ".jpg";
+                string imgUrl = "ms-appx:///Assets/crests/" + listQuestion[index].Image;
                
                 imageLoad.Source = new BitmapImage(new Uri(imgUrl));
 
@@ -114,22 +114,22 @@ namespace UWPCrestGuess
 
         private void answerA_Click(object sender, RoutedEventArgs e)
         {
-
+            AnswerAccept(sender as Button);
         }
 
         private void answerB_Click(object sender, RoutedEventArgs e)
         {
-
+            AnswerAccept(sender as Button);
         }
 
         private void answerC_Click(object sender, RoutedEventArgs e)
         {
-
+            AnswerAccept(sender as Button);
         }
 
         private void answerD_Click(object sender, RoutedEventArgs e)
         {
-
+            AnswerAccept(sender as Button);
         }
     }
 }

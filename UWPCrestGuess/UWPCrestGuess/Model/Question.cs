@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UWPCrestGuess.Model
 {
-    class Question
+    public class Question
     {
         public int ID { get; set; }
         public string Image { get; set; }
