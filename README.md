@@ -11,6 +11,8 @@ A game where the user is given the crest of a soccer club and is given 4 possibl
 ## Introduction
 This is a Universal Windows Project called CrestGuess. The aim of this game is to guess as many club crests as you can. I stored the team names locally on an SQLite database which retrieves the names at random. You are given the crest of a football team with the name of the team on the crest erased. There are four possible answers with one being the correct answer. For every correct answer the user receives a score of 10 and if the answer is incorrect the user is moved onto the next question. There are 20 questions and 20 different crests. On the start up page you are given two pages, Play and Score Ranking. Unfortunately I was unable to get the Score Ranking working properly however I left the button in there to show you what I had intended to do. It was my intention to post the scores up onto the database. When the Play button is pressed the user is then sent to the game. When the user has answered the 20 question they are then directed to another page to inform them of their score and correct answers out of 20.
 
+# Architecture
+
 ## XAML Pages
 The XAML pages is where the design occurs and the buttons etc. are set.
 
@@ -43,6 +45,11 @@ Table | Description
 ------------ | -------------
 Question | This table has 5 fields: ID, Image, AnswerA, AnswerB, AnswerC, AnswerD and CorrectAnswer. I generated a query which randomised all the team names.
 
+## How to run CrestGuess
+* Download zip
+* Open the project in Visual Studio 2015.
+* Run the project.
+
 ## SQLite User Guide
 Installation guide on SQLite for the project on Visual Studio 2015:
 - First you need to go to the SQLite download site at [https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)
@@ -59,3 +66,29 @@ Installation guide on SQLite for the project on Visual Studio 2015:
 
 ## Problems Encountered
 * I had various different problems throughout the course of this project. Firstly, I had originally planned to have an easy mode and a hard mode. However I ran into difficulty doing and then had to back track to just one level. This resulted in changing a lot of code which introduced more errors.
+
+* I also ran in into problems as I have mentioned when trying to get a Score Ranking page working. SQLite was giving me unexpected errors and after hours of trying to see where I went wrong I unfortunately had to leave it out.
+
+* Finally as you will see from using the app, when you are shown the four possible answers for the crest, the names contain .jps after them which does not look well. I was unable to find a way to counteract this as anything I changed seemed to lead to more problems.
+
+## References
+* https://msdn.microsoft.com/en-us/library/bb397900.aspx    
+* https://msdn.microsoft.com/en-us/library/system.convert.tostring(v=vs.110).aspx    
+* http://sqlitebrowser.org/    
+* https://www.tutorialspoint.com/sqlite/sqlite_create_table.htm
+* https://www.dotnetperls.com/regex     
+* http://codereview.stackexchange.com/questions/5983/random-string-generation     
+* https://msdn.microsoft.com/en-us/library/mt149842(v=vs.110).aspx      
+* https://msdn.microsoft.com/en-us/library/dn904477(v=vs.110).aspx     
+* https://blog.udemy.com/c-sharp-hashset/     
+* https://msdn.microsoft.com/en-us/library/as2f1fez.aspx    
+* https://msdn.microsoft.com/en-us/magazine/dn879355.aspx    
+* https://msdn.microsoft.com/en-us/library/system.drawing.bitmap(v=vs.110).aspx     
+* http://www.informit.com/articles/article.aspx?p=2304072&seqNum=3     
+* https://msdn.microsoft.com/en-us/library/ms173153.aspx     
+* https://www.codeproject.com/articles/837599/using-csharp-to-connect-to-and-query-from-a-sql-da     
+* https://www.tutorialspoint.com/sqlite/sqlite_create_table.htm    
+* http://csharp.net-tutorials.com/     
+* http://www.javatpoint.com/c-sharp-tutorial     
+* http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/lesson-22-3-creating-the-sql-to-save-and-load-the-saved-game-data/
+
