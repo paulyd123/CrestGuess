@@ -69,7 +69,7 @@ Installation guide on SQLite for the project on Visual Studio 2015:
 
 * I also ran in into problems as I have mentioned when trying to get a Score Ranking page working. SQLite was giving me unexpected errors and after hours of trying to see where I went wrong I unfortunately had to leave it out.
 
-* Finally as you will see from using the app, when you are shown the four possible answers for the crest, the names contain .jps after them which does not look well. I was unable to find a way to counteract this as anything I changed seemed to lead to more problems.
+* Finally as you will see from using the app, when you are shown the four possible answers for the crest, the names contain .jpg after them which does not look well. I was unable to find a way to counteract this as anything I changed seemed to lead to more problems.
 
 ## References
 * https://msdn.microsoft.com/en-us/library/bb397900.aspx    
