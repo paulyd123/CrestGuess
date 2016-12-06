@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-06T01:12:02.602</Modified>
+      <Modified>2016-12-06T02:08:07.877</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\UWPCrestGuess.exe">
       <PackagePath>entrypoint\UWPCrestGuess.exe</PackagePath>
-      <Modified>2016-12-06T01:12:01.484</Modified>
+      <Modified>2016-12-06T02:07:58.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0029\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -617,11 +617,11 @@
     <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-06T01:03:42.024</Modified>
+      <Modified>2016-12-06T02:08:05.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0029\Documents\Visual Studio 2015\Projects\UWPCrestGuess\UWPCrestGuess\bin\x86\Debug\Core\UWPCrestGuess.exe">
       <PackagePath>UWPCrestGuess.exe</PackagePath>
-      <Modified>2016-12-06T01:12:02.590</Modified>
+      <Modified>2016-12-06T02:08:07.866</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

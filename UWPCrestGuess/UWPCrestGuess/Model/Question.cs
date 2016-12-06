@@ -8,6 +8,7 @@ namespace UWPCrestGuess.Model
 {
     public class Question
     {
+        //Setting get and set methods needed for question
         public int ID { get; set; }
         public string Image { get; set; }
         public string AnswerA { get; set; }

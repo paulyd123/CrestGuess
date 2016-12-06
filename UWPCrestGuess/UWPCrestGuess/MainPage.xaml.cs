@@ -18,9 +18,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace UWPCrestGuess
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -28,6 +26,7 @@ namespace UWPCrestGuess
             this.InitializeComponent();
         }
 
+        //Function for whhen Play button is clicked -> Navigate to Play page
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Play));
